@@ -105,5 +105,4 @@ content {
   <content>As part of the standards process, W3C requires that groups demonstrate implementation experience. W3C issues a call for implementations as part of standardization and welcomes public participation. See the list of specifications for which W3C is seeking implementation experience (called "Candidate Recommendations</content>
 </div>
 
-
 </body></html>
