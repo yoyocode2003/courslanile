@@ -1,37 +1,109 @@
-## Welcome to GitHub Pages
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="week2.assingment.css">
+</head>
+<style>
+	* {
+  box-sizing: border-box;
+  padding: 0;
+}
 
-You can use the [editor on GitHub](https://github.com/yoyocode2003/courslanile/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+h1 {
+  text-align: center;
+}
 
-### Markdown
+div  {
+  border: 1px solid black;
+  background-color: gray;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+@media (min-width: 992px) {
+  div {
+    width: 30%;
+  }
+}
 
-```markdown
-Syntax highlighted code block
+@media (min-width: 768px) and (max-width: 991px) {
+  .div1 {
+    width: 47%;
+  }
+  .div2 {
+    width: 47%;
+  }
+  .div3 {
+    width: fit-content;
+  }
+}
 
-# Header 1
-## Header 2
-### Header 3
+@media (max-width: 767px) {
+  div {
+    width: fit-content;
+  }
+}
 
-- Bulleted
-- List
+p {
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+  margin-left: max-content;
+  float: right;
+  padding-left: 3em;
+  padding-right: 3em;
+}
 
-1. Numbered
-2. List
+content {
+  float: right;
+  padding: 1em;
+}
 
-**Bold** and _Italic_ and `Code` text
+#p1 {
+  background-color: rgb(194, 135, 145);
+}
 
-[Link](url) and ![Image](src)
-```
+#p2 {
+  background-color: rgb(155, 64, 64);
+  color: aliceblue;
+}
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+#p3 {
+  background-color: rgb(247, 211, 164);
+}
 
-### Jekyll Themes
+.section1 {
+  background-color: aqua;
+  width: 50%;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yoyocode2003/courslanile/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+.section2 {
+  background-color: brown;
+  width: 50%;
+}
 
-### Support or Contact
+</style>
+<body>
+  <h1>Our Menu</h1>
+<div class="div1">
+  <p id="p1">Chicken</p>
+  <content>As part of the standards process, W3C requires that groups demonstrate implementation experience. W3C issues a call for implementations as part of standardization and welcomes public participation. See the list of specifications for which W3C is seeking implementation experience (called "Candidate Recommendations</content>
+</div>
+<div class="div2">
+  <p id="p2">Beef</p>
+  <content>As part of the standards process, W3C requires that groups demonstrate implementation experience. W3C issues a call for implementations as part of standardization and welcomes public participation. See the list of specifications for which W3C is seeking implementation experience (called "Candidate Recommendations</content>
+</div>
+<div class="div3">
+  <p id="p3">Sushi</p>
+  <content>As part of the standards process, W3C requires that groups demonstrate implementation experience. W3C issues a call for implementations as part of standardization and welcomes public participation. See the list of specifications for which W3C is seeking implementation experience (called "Candidate Recommendations</content>
+</div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+</body></html>
